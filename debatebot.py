@@ -470,4 +470,4 @@ async def on_raw_reaction_add(payload):
                 await member.add_roles(role)
                 print("done")
 
-client.run('ODE4OTgwMjYyMzY0NzA4ODc0.YEf8zg.z-I4VYRU5P3eB2hMRwtI3SJd0zM')
+client.run('token')
