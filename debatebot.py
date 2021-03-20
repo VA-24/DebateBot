@@ -250,22 +250,8 @@ async def l(ctx, member):
     await ctx.send(f'{member} lost their round.')
 
 @client.command()
-async def gayrate(ctx, member):
-    await ctx.send(f'{member} is ' + str(random.randrange(100)) + "% gay")
-
-@client.command()
 async def gangsta(ctx, member):
     await ctx.send(f'{member} is ' + str(random.randrange(100)) + "% Gangsta")
-
-@client.command()
-async def Dlength(ctx, member):
-
-    if 'noswad' in str(member):
-        await ctx.send('Noswad has an immeasurable D, and he is clearly the alpha')
-    elif 'ultraman' in str(member):
-        await ctx.send('8===============================================================D')
-    else:
-        await ctx.send(f'{member} has a length ' + '8' + '=' * random.randrange(15) + 'D')
 
 @client.command()
 async def chat(ctx, *, question):
